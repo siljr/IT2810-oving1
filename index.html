@@ -1,10 +1,11 @@
-<!DOCTYPE <html>
-<html land="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Thank god for cats</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800|Sue+Ellen+Francisco" rel="stylesheet">
+ 	<link rel="icon" type="image/ico" href="img/favicon.ico">
 </head>
 <body>
 	<div class="content" id="intro_cat">
@@ -12,36 +13,57 @@
 		<h2>- I love cats -</h2>
 		<p>I'm thankful for living on <br> a planet that has cats</p>
 		<img src="img/cat_on_planet.svg" alt="Picture of a cat">
-		<button type="button" name="button">Please tell me more about cats</button>
+		<button type="button" name="button" id="intro_button">Please tell me more about cats</button>
 	</div>
+
 	<div class="content" id="normal_cat">
 		<h1>Cats</h1>
 		<h2>- I love cats -</h2>
 		<p>There are many types of cats. <br> There are normal cats.</p>
 		<img src="img/sitting_cat.svg" alt="Picture of a normal cat">
-		<button type="button" name="button">Please show me more cats!</button>
+		<button type="button" name="button" id="normal_button">Please show me more cats!</button>
 	</div>
+
 	<div class="content" id="angry_cat">
 		<h1>Cats</h1>
 		<h2>- I love cats -</h2>
 		<p>Angry cats.</p>
 		<img src="img/angry_cat.svg" alt="Picture of an angry cat">
-		<button type="button" name="button">Please show me more cats!</button>
+		<button type="button" name="button" id="angry_button">Please show me more cats!</button>
 	</div>
-	<div class="content" id="normal_cat">
+
+	<div class="content" id="chill_cat">
 		<h1>Cats</h1>
 		<h2>- I love cats -</h2>
 		<p>And chill cats.</p>
 		<img src="img/cozy_cat.svg" alt="Picture of a chill cat">
-		<button type="button" name="button">Wow, you're <br> right!</button>
+		<button type="button" name="button" id="cozy_button">Wow, you're <br> right!</button>
 	</div>
+
 	<div class="content" id="special_cat">
 		<h1>Cats</h1>
 		<h2>- I love cats -</h2>
 		<p>All cats are special. <br> You should probably get one!</p>
 		<img src="img/retarded_cat.svg" alt="Picture of a special needs cat">
-		<button type="button" name="button">Yes! I'm so thankful for cats</button>
+		<button type="button" name="button" id="special_button">Yes! I'm so thankful for cats</button>
 	</div>
+
+	<div id="lastModal" class="modal">
+		<div class="modal-content">
+			<p id="modal_paragraph">Hi there, stranger!
+				<br> Thank you for beeing so patient
+				<br> with me and my cats. I made all
+				<br> the illustrations for this project
+				<br> myself, because I really am a
+				<br> a crazy cat lady!
+				<br>
+				<br> - Silje
+			</p>
+			<img id="catPictureInModal" src="img/love_cat.svg" alt="Picture of a special needs cat">
+		</div>
+	</div>
+
+	<script src="main.js"></script>
 
 </body>
 </html>

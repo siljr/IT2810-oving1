@@ -32,6 +32,7 @@ button {
 	padding: 10px 10px;
 	width: 170px;
 	margin: 20px;
+	cursor: pointer;
 }
 
 button:hover {
@@ -43,4 +44,46 @@ button:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#normal_cat,
+#angry_cat,
+#chill_cat,
+#special_cat {
+	display: none;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+	display: flex;
+	justify-content: center;
+    background-color: #fefefe;
+    margin: 8% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+	border-radius: 10px;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+#modal_paragraph {
+	max-width: 350px;
+	line-height: 1.5;
+	text-align: left;
+	margin: 50px 70px 50px 50px;
+}
+
+#catPictureInModal {
+	margin-right: 50px;
 }
